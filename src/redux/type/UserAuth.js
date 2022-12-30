@@ -1,0 +1,3 @@
+export const GET_USER_AUTH = "GET_USER_AUTH";
+export const EDIT_USER_AUTH = "EDIT_USER_AUTH";
+export const UPLOAD_USER_AUTH = "UPLOAD_USER_AUTH";

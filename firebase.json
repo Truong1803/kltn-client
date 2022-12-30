@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "tlu-scientific-research",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

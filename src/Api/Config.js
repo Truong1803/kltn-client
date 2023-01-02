@@ -1,6 +1,6 @@
-import axios from "axios";
+import axios from 'axios';
 
-axios.defaults.withCredentials = true;
+// axios.defaults.withCredentials = true;
 const publicAPI = "https://web-production-9d5a.up.railway.app/api/";
 const localApi = "http://localhost:5000/api/";
 export const apiUrl = publicAPI;
